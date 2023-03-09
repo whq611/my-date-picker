@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Date Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="datepicker" id="datepicker">
+        <div class="controls">
+            <button class="prev-year">&lt;&lt;</button>
+            <button class="prev-month">&lt;</button>
+            <button class="today">Today</button>
+            <span class="current-date"></span>
+            <button class="next-month">&gt;</button>
+            <button class="next-year">&gt;&gt;</button>
+        </div>
+        <table class="date-grid">
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody class="dates"></tbody>
+        </table>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
